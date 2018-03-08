@@ -46,6 +46,7 @@
       <div class="jumbotron">
 	<h1>Interactive Data Science Project Exploratory Analysis Byte Example</h1>
         <p>This is the Exploratory Analysis Byte of the Interactive Data Science class.</p>
+        <p>Andrew ID: shenghuj</p>
       </div>
       
       <div class="page-header">
@@ -53,11 +54,35 @@
       </div> <!-- /page-header -->
     </div> <!-- /container -->
 
-<svg></svg>
+
+<!-- <svg></svg>  --> 
+
+<div style ="text-align: center;">
+<div style="width: 80%; margin: 0 auto 0 auto;">
+<h3>Visualization 1</h3>
+<p>This visualization shows the step path I made and recoded by AWARE Framework APP. We could esaily find that the most frequent places
+ I have been are campus, home and Chinese Market. Also, I colored the points with the altitude infomation (the lower altitude the darker color).
+ Interestingly enough, though the terrain of Pittsburgh is hilly, these three frequent places I have been are quite similar (around 200).</p>
+
+<div class='tableauPlaceholder' id='viz1520486023292' style='position: relative'><noscript><a href='#'><img alt='Steps Map ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ID&#47;IDS_Byte3_0306&#47;StepsMap&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='IDS_Byte3_0306&#47;StepsMap' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ID&#47;IDS_Byte3_0306&#47;StepsMap&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1520486023292');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+<br>
+<br>
+<br>
+
+<h3>Visualization 2</h3>
+<p>This visualization shows the Activity mode I have been in and recorded by the activity recognition plug-in of AWARE Framework APP. As these recognition
+are made by some algorithms based on the reading of accelerometer and other sensors, they will not be fully accuratue. In the data provided by the
+recognition plug-in, there is a column contains "confidence" infomation. In this visualization, I clearn the data by filter out the data with confidence lower than 50 .</p>
+<div class='tableauPlaceholder' id='viz1520486530895' style='position: relative'><noscript><a href='#'><img alt='Time of activities ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ID&#47;IDS_Byte3_0306&#47;Timeofactivities&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='IDS_Byte3_0306&#47;Timeofactivities' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ID&#47;IDS_Byte3_0306&#47;Timeofactivities&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1520486530895');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+</div>
+</div>
 
 <!-- STYLES FOR D3 -->
 <style>
-/* Styles for date/time chart */
+/* Styles for date/time chart */ 
 path { 
     stroke: steelblue;
     stroke-width: 2;
@@ -102,7 +127,7 @@ div.tooltip {
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script>
+  <!--  <script>
     $( document ).ready(function() {
 	
 		/* Start date/time hover graph code
@@ -252,6 +277,8 @@ div.tooltip {
 		//End bar chart code
 		
 	}); //End document ready			   
-</script>
+</script> -->
+
+
 </body>
 </html>
